@@ -1,0 +1,1528 @@
+[
+	{
+		"name": "Abomination",
+		"cost": 5,
+		"power": 9,
+		"description": "No ability.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Absorbing Man",
+		"cost": 4,
+		"power": 3,
+		"description": "On Reveal: If the last card you played has an On Reveal ability, this card copies it.",
+		"source": "POOL_4"
+	},
+	{
+		"name": "Adam Warlock",
+		"cost": 2,
+		"power": 0,
+		"description": "At the end of each turn, if you are winning this location, draw a card.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Aero",
+		"cost": 5,
+		"power": 8,
+		"description": "On Reveal: Move all enemy cards played this turn to this location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Agatha Harkness",
+		"cost": 6,
+		"power": 14,
+		"description": "Agatha starts in your hand and plays your cards for you.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Agent 13",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Add a random card to your hand.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Agent Coulson",
+		"cost": 3,
+		"power": 4,
+		"description": "On Reveal: Add a random 4-cost and 5-cost card to your hand.",
+		"source": "POOL_4"
+	},
+	{
+		"name": "America Chavez",
+		"cost": 6,
+		"power": 9,
+		"description": "You always draw this card on turn 6, and not before.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Angel",
+		"cost": 1,
+		"power": 2,
+		"description": "When one of your cards is destroyed, this flies out of your deck to replace it.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Angela",
+		"cost": 2,
+		"power": 1,
+		"description": "When you play a card here, +2 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Apocalypse",
+		"cost": 6,
+		"power": 8,
+		"description": "When you discard this from your hand, put it back with +4 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Armor",
+		"cost": 2,
+		"power": 3,
+		"description": "Ongoing: Cards at this location can’t be destroyed.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Arnim Zola",
+		"cost": 6,
+		"power": 0,
+		"description": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Attuma",
+		"cost": 4,
+		"power": 10,
+		"description": "If you have another card here at the end of your turn, destroy this.",
+		"source": "POOL_4"
+	},
+	{
+		"name": "Baron Mordo",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Bast",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Set the Power of all cards in your hand to 3.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Beast",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: Return your other cards at this location to your hand. They cost 1 less.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Bishop",
+		"cost": 3,
+		"power": 1,
+		"description": "When you play a card, this gains +1 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Black Bolt",
+		"cost": 5,
+		"power": 8,
+		"description": "On Reveal: Your opponent must discard the lowest-Cost card in their hand.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Black Cat",
+		"cost": 3,
+		"power": 6,
+		"description": "If this is in your hand at the end of your turn, discard it.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Black Panther",
+		"cost": 5,
+		"power": 4,
+		"description": "On Reveal: Double this card’s Power.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Black Widow",
+		"cost": 2,
+		"power": 1,
+		"description": "On Reveal: Add a Widow’s Bite to your opponent’s hand.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Blade",
+		"cost": 1,
+		"power": 3,
+		"description": "On Reveal: Discard a card from your hand.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Brood",
+		"cost": 3,
+		"power": 2,
+		"description": "On Reveal: Add 2 Broodlings to this location with the same Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Bucky Barnes",
+		"cost": 2,
+		"power": 1,
+		"description": "When this is destroyed, create the Winter Soldier in its place.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Cable",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: Put the bottom card of your opponent’s deck into your hand.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Captain America",
+		"cost": 3,
+		"power": 3,
+		"description": "Ongoing: Your other cards at this location have +1 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Captain Marvel",
+		"cost": 5,
+		"power": 6,
+		"description": "At the end of the game, move to a location that wins you the game. (If possible)",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Carnage",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: Destroy your other cards here. +2 Power for each destroyed.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Cerebro",
+		"cost": 3,
+		"power": 0,
+		"description": "Ongoing: Your highest Power cards get +2 Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Cloak",
+		"cost": 2,
+		"power": 4,
+		"description": "On Reveal: Next turn, both players can move cards to this location.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Colleen Wing",
+		"cost": 2,
+		"power": 4,
+		"description": "On Reveal: Discard the lowest-cost card from your hand.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Cosmo",
+		"cost": 3,
+		"power": 3,
+		"description": "Ongoing: On Reveal abilities won’t happen at this location.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Crossbones",
+		"cost": 4,
+		"power": 8,
+		"description": "You can only play this at locations where you are winning.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Crystal",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: If this is at the middle location, shuffle your hand into your deck and draw 3 cards.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Cyclops",
+		"cost": 3,
+		"power": 4,
+		"description": "No ability.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Dagger",
+		"cost": 2,
+		"power": 1,
+		"description": "When this moves to a location, +2 Power for each card your opponent has there.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Daredevil",
+		"cost": 2,
+		"power": 2,
+		"description": "On turn 5, you get to see your opponent’s plays before you make your own.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Darkhawk",
+		"cost": 4,
+		"power": 1,
+		"description": "Ongoing: + 2 Power for each card in your opponent’s deck.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Dazzle",
+		"cost": 4,
+		"power": 4,
+		"description": "Ongoing: If you have 4 cards at each Location, + 6 Power.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Deadpool",
+		"cost": 1,
+		"power": 1,
+		"description": "When this is destroyed, return it to your hand with double the Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Death",
+		"cost": 9,
+		"power": 12,
+		"description": "Costs 1 less for each card destroyed this game.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Deathlok",
+		"cost": 3,
+		"power": 5,
+		"description": "On Reveal: Destroy your other cards at this location.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Debrii",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Add a Rock to each other location, for both players.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Demon",
+		"cost": 1,
+		"power": 6,
+		"description": "No Ability.",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Destroyer",
+		"cost": 6,
+		"power": 16,
+		"description": "On Reveal: Destroy your other cards.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Devil Dinosaur",
+		"cost": 5,
+		"power": 3,
+		"description": "Ongoing: +2 Power for each card in your hand.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Doctor Doom",
+		"cost": 6,
+		"power": 5,
+		"description": "On Reveal: Add a 5-Power DoomBot to each other location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Doctor Octopus",
+		"cost": 5,
+		"power": 10,
+		"description": "On Reveal: Pull 4 random cards from your opponent’s hand to their side of this location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Doctor Strange",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Move your highest power cards to this location.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Domino",
+		"cost": 2,
+		"power": 3,
+		"description": "You always draw this card on turn 2, and not before.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Doombot",
+		"cost": 5,
+		"power": 5,
+		"description": "No Ability.",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Dracular",
+		"cost": 4,
+		"power": 0,
+		"description": "At the end of the game, discard a card from your hand. This has its Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Drax",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Drone",
+		"cost": 1,
+		"power": 1,
+		"description": "No Ability.",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Ebony Maw",
+		"cost": 1,
+		"power": 7,
+		"description": "You can’t play this after turn 3. Ongoing: You can’t play cards here.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Electro",
+		"cost": 3,
+		"power": 2,
+		"description": "On Reveal: +1 Max Energy. Ongoing: You can only play 1 card a turn.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Elektra",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Destroy a random enemy 1-Cost card at this location.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Enchantress",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: Remove the abilities from all Ongoing cards at this location.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Falcon",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Return your 1-Cost cards to your hand.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Forge",
+		"cost": 2,
+		"power": 1,
+		"description": "On Reveal: Give the next card you play +2 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Galactus",
+		"cost": 6,
+		"power": 3,
+		"description": "On Reveal: If this is your only card here, destroy all other locations.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Gambit",
+		"cost": 3,
+		"power": 1,
+		"description": "On Reveal: Discard a card from your hand. Destroy a random enemy card.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Ghost",
+		"cost": 1,
+		"power": 2,
+		"description": "Ongoing: Your cards are always revealed last. (Their On Reveal abilities happen last)",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Ghost Rider",
+		"cost": 4,
+		"power": 3,
+		"description": "On Reveal: Bring back one of your discarded cards to this location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Giganto",
+		"cost": 6,
+		"power": 14,
+		"description": "You can only play this at the left location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Goose",
+		"cost": 2,
+		"power": 2,
+		"description": "Ongoing: Nobody can play cards that cost 4, 5, or 6 at this location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Green Goblin",
+		"cost": 3,
+		"power": -3,
+		"description": "On Reveal: Your opponent gains control of this.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Groot",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: If your opponent played a card here this turn, +3 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Hawkeye",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: If you play a card here next turn, +2 Power.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Hazmat",
+		"cost": 2,
+		"power": 1,
+		"description": "On Reveal: Afflict all other cards with -1 Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Heimdall",
+		"cost": 6,
+		"power": 8,
+		"description": "On Reveal: Move your other cards one location to the left.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Hela",
+		"cost": 6,
+		"power": 6,
+		"description": "On Reveal: Play all cards you discarded from your hand to random locations.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Helicarrier",
+		"cost": 6,
+		"power": 10,
+		"description": "When you discard this from your hand, replace it with 3 random cards.",
+		"source": "POOL_4"
+	},
+	{
+		"name": "Hellcow",
+		"cost": 4,
+		"power": 6,
+		"description": "On Reveal: Discard 2 cards from your hand.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Hobgoblin",
+		"cost": 5,
+		"power": -8,
+		"description": "On Reveal: Your Opponent gains control of this.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Hulk",
+		"cost": 6,
+		"power": 12,
+		"description": "No ability.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Human Torch",
+		"cost": 1,
+		"power": 2,
+		"description": "When this moves, double its Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Iceman",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Give a random card in your opponent’s hand +1 Cost (maximum 6).",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Invisible Woman",
+		"cost": 2,
+		"power": 2,
+		"description": "Ongoing: Cards you play here are not revealed until the game ends.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Iron Fist",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Move the next card you play one location to the left after it reveals.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Iron Man",
+		"cost": 5,
+		"power": 0,
+		"description": "Ongoing: Your total Power is doubled at this Location.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Jubilee",
+		"cost": 4,
+		"power": 1,
+		"description": "On Reveal: Play the top card of your deck at this location.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Juggernaut",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: If your opponent played cards here this turn, move them randomly.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Kang",
+		"cost": 5,
+		"power": 0,
+		"description": "On Reveal: Look at what your opponent did, then restart the turn (without Kang).",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Killmonger",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Destroy ALL 1-Cost cards.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Kingpin",
+		"cost": 3,
+		"power": 4,
+		"description": "When a card moves here on turn 6, destroy it.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Klaw",
+		"cost": 5,
+		"power": 4,
+		"description": "Ongoing: The location to the right has +6 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Knull",
+		"cost": 6,
+		"power": 0,
+		"description": "Ongoing: Has the combined Power of all cards destroyed this game.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Korg",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Shuffle a Rock into your opponent’s deck.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Kraven",
+		"cost": 2,
+		"power": 2,
+		"description": "When a card moves here, this gets +2 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Lady Sif",
+		"cost": 3,
+		"power": 4,
+		"description": "On Reveal: Discard the highest-cost card from your hand.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Leader",
+		"cost": 6,
+		"power": 4,
+		"description": "On Reveal: Copy all cards your opponent played this turn, but on your side.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Leech",
+		"cost": 5,
+		"power": 3,
+		"description": "On Reveal: Remove the abilities from all cards in your opponent’s hand.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Lizard",
+		"cost": 2,
+		"power": 5,
+		"description": "Ongoing: -3 Power if your opponent has 4 cards here.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Lockjaw",
+		"cost": 3,
+		"power": 2,
+		"description": "When you play a card here, swap it with a card in your deck.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Luke Cage",
+		"cost": 2,
+		"power": 1,
+		"description": "Ongoing: Your cards can’t have their Power reduced.",
+		"source": "POOL_4"
+	},
+	{
+		"name": "M’Baku",
+		"cost": 1,
+		"power": 2,
+		"description": "If this is in your deck at the end of the game, it leaps to a random location.",
+		"source": "POOL_4"
+	},
+	{
+		"name": "Magik",
+		"cost": 5,
+		"power": 3,
+		"description": "You can’t play this on turn 6. On Reveal: Change this location to ‘Limbo’.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Magneto",
+		"cost": 6,
+		"power": 12,
+		"description": "On Reveal: Move all opposing 3 and 4-Cost cards to this location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Mantis",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: If your opponent played a card here this turn, draw a card from their deck.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Maria Hill",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Add a random 1-Cost card to your hand.",
+		"source": "POOL_4"
+	},
+	{
+		"name": "Maximus",
+		"cost": 3,
+		"power": 7,
+		"description": "On Reveal: Your opponent draws 2 cards.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Medusa",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: If this is at the middle Location, +2 Power.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Mind Stone",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Draw 2 Stones from your deck.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Mister Negative",
+		"cost": 4,
+		"power": -1,
+		"description": "On Reveal: Swap the Power and Cost of all cards in your deck.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Mister Sinister",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: Add a Sinister Clone to this location with the same Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Misty Knight",
+		"cost": 1,
+		"power": 2,
+		"description": "No ability.",
+		"source": "STARTER"
+	},
+	{
+		"name": "MODOK",
+		"cost": 5,
+		"power": 8,
+		"description": "On Reveal: Discard your hand.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Mojo",
+		"cost": 2,
+		"power": 2,
+		"description": "Ongoing: If both players have 4 cards at this location, +6 Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Monster",
+		"cost": 6,
+		"power": 9,
+		"description": "No Ability.",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Moon Girl",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: Duplicate your hand.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Moon Knight",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Discard a card from each player’s hand.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Morbius",
+		"cost": 2,
+		"power": 0,
+		"description": "Ongoing: +2 Power for each card you have discarded from your hand this game.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Morph",
+		"cost": 3,
+		"power": 0,
+		"description": "On Reveal: Become a copy of a random card in your opponent’s hand.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Multiple Man",
+		"cost": 2,
+		"power": 3,
+		"description": "When this moves, add a copy to the old location.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Mysterio",
+		"cost": 2,
+		"power": 5,
+		"description": "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Mysterio (Clone)",
+		"cost": 2,
+		"power": 0,
+		"description": "Mysterio Clone",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Mystique",
+		"cost": 3,
+		"power": 0,
+		"description": "On Reveal: If the last card you played has an Ongoing ability, this card gains it.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Nakia",
+		"cost": 3,
+		"power": 1,
+		"description": "On Reveal: Give the 2 leftmost cards in your hand +2 Power.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Namor",
+		"cost": 4,
+		"power": 5,
+		"description": "Ongoing: +5 Power if this is your only card here.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Nick Fury",
+		"cost": 5,
+		"power": 7,
+		"description": "On Reveal: Add 3 random 6-Cost cards to your hand.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Nova",
+		"cost": 1,
+		"power": 2,
+		"description": "When this is destroyed, give your cards +1 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Okoye",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: Give every card in your deck +1 Power.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Omega Red",
+		"cost": 4,
+		"power": 5,
+		"description": "Ongoing: If you’re ahead by 10 Power here, +4 Power to other locations.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Onslaught",
+		"cost": 6,
+		"power": 7,
+		"description": "Ongoing: Double your other Ongoing effects at this location.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Orka",
+		"cost": 6,
+		"power": 9,
+		"description": "Ongoing: + 5 Power if this is your only card here.",
+		"source": "POOL_4"
+	},
+	{
+		"name": "Patriot",
+		"cost": 3,
+		"power": 1,
+		"description": "Ongoing: Your cards with no abilities have +2 Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Polaris",
+		"cost": 3,
+		"power": 5,
+		"description": "On Reveal: Move an opposing 1 or 2-Cost card to this location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Power Stone",
+		"cost": 1,
+		"power": 3,
+		"description": "Ongoing: If you’ve played all 6 stones, Thanos has +10 Power. (wherever he is)",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Professor X",
+		"cost": 5,
+		"power": 3,
+		"description": "Ongoing: Lock down this location. (Cards can’t be added, removed, etc.)",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Psylocke",
+		"cost": 2,
+		"power": 1,
+		"description": "On Reveal: Next turn, you get +1 Energy.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Quake",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: If this is at the middle location, swap the positions of each location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Quicksilver",
+		"cost": 1,
+		"power": 2,
+		"description": "Starts in your opening hand.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Quinjet",
+		"cost": 1,
+		"power": 2,
+		"description": "Ongoing: Cards that didn’t start in your deck cost 1 less.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Raptor",
+		"cost": 1,
+		"power": 1,
+		"description": "No Ability.",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Reality Stone",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Transform this location into a new one. Draw a card.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Red Skull",
+		"cost": 5,
+		"power": 15,
+		"description": "Ongoing: Enemy cards at this location have +2 Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Rescue",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: If you play a card here next turn, +5 Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Rhino",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Ruin this location (remove it’s ability).",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Rock",
+		"cost": 1,
+		"power": 0,
+		"description": "No Ability.",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Rocket Raccoon",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: If your opponent played a card here this turn, +2 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Rockslide",
+		"cost": 4,
+		"power": 6,
+		"description": "On Reveal: Shuffle 2 Rocks into your opponent’s deck.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Rogue",
+		"cost": 3,
+		"power": 1,
+		"description": "On Reveal: Steal an Ongoing ability from a random enemy card at this location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Ronan the Accuser",
+		"cost": 5,
+		"power": 3,
+		"description": "Ongoing: +2 Power for each card in your opponent’s hand.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Sabretooth",
+		"cost": 3,
+		"power": 4,
+		"description": "When this is destroyed, return it to your hand. It costs 0.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Sandman",
+		"cost": 4,
+		"power": 1,
+		"description": "Ongoing: Players can only play 1 card a turn.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Sauron",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Remove the abilities from all Ongoing cards in your hand and deck.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Scarlet Witch",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Replace this location with a random new one.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Scorpion",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: Afflict cards in your opponent’s hand with -1 Power.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Sentinel",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Add another Sentinel to your hand.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Sentry",
+		"cost": 4,
+		"power": 8,
+		"description": "Cannot be played at the right Location. On Reveal: Add a -8 Power Void to the right Location.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Sera",
+		"cost": 5,
+		"power": 5,
+		"description": "Ongoing: Cards in your hand cost 1 less. (minimum 1)",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Shadow King",
+		"cost": 4,
+		"power": 3,
+		"description": "On Reveal: Set all cards here to their original base Power.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Shang-Chi",
+		"cost": 4,
+		"power": 3,
+		"description": "On Reveal: Destroy all enemy cards at this location that have 9 or more Power.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Shanna",
+		"cost": 4,
+		"power": 2,
+		"description": "On Reveal: Add a random 1-Cost card to each Location.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "She-Hulk",
+		"cost": 6,
+		"power": 10,
+		"description": "Costs 1 less for each unspent Energy last turn.",
+		"source": "POOL_4"
+	},
+	{
+		"name": "Shocker",
+		"cost": 2,
+		"power": 3,
+		"description": "No ability.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Shuri",
+		"cost": 4,
+		"power": 2,
+		"description": "On Reveal: Double the Power of the next card you play.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Soul Stone",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Draw a card. Ongoing: Enemy cards here have -1 Power.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Space Stone",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Next turn you can move 1 card at this location. Draw a card.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Spider-Man",
+		"cost": 4,
+		"power": 3,
+		"description": "On Reveal: Your opponent can’t play cards at this location next turn.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Spider-Woman",
+		"cost": 5,
+		"power": 7,
+		"description": "On Reveal: Afflict all enemy cards here with -1 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Squirrel",
+		"cost": 1,
+		"power": 1,
+		"description": "No Ability.",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Squirrel Girl",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Add a 1-Power Squirrel to each other location.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Star Lord",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: If your opponent played a card here this turn, +3 Power.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Stature",
+		"cost": 5,
+		"power": 7,
+		"description": "Costs 1 if your opponent discarded a card from their hand this game.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Storm",
+		"cost": 3,
+		"power": 2,
+		"description": "On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Strong Guy",
+		"cost": 4,
+		"power": 4,
+		"description": "Ongoing: If you hand is empty, +6 Power.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Sunspot",
+		"cost": 1,
+		"power": 1,
+		"description": "At the end of each turn, gain +1 Power for each unspent Energy.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Super Skrull",
+		"cost": 4,
+		"power": 2,
+		"description": "Ongoing: Has the Ongoing effects of all enemy cards.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Swarm",
+		"cost": 2,
+		"power": 3,
+		"description": "When this is discarded from your hand, add two 0-Cost copies to your hand.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Sword Master",
+		"cost": 3,
+		"power": 6,
+		"description": "On Reveal: Discard a card from your hand.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Taskmaster",
+		"cost": 5,
+		"power": 0,
+		"description": "On Reveal: Set this card’s Power equal to the Power of the last card you played.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Thanos",
+		"cost": 6,
+		"power": 8,
+		"description": "At the start of the game, shuffle the six Infinity Stones into your deck.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "The Collector",
+		"cost": 2,
+		"power": 1,
+		"description": "When a card enters your hand from anywhere (except your deck), +1 Power.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "The Hood",
+		"cost": 1,
+		"power": -2,
+		"description": "On Reveal: Add a Demon to your hand.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "The Infinaut",
+		"cost": 6,
+		"power": 20,
+		"description": "If you played a card last turn, you can’t play this.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "The Living Tribunal",
+		"cost": 6,
+		"power": 4,
+		"description": "At the end of the game, split your Power evenly among all Locations.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "The Punisher",
+		"cost": 3,
+		"power": 2,
+		"description": "Ongoing: +1 Power for each opposing card at this Location.",
+		"source": "STARTER"
+	},
+	{
+		"name": "The Thing",
+		"cost": 4,
+		"power": 6,
+		"description": "No ability.",
+		"source": "STARTER"
+	},
+	{
+		"name": "Thor",
+		"cost": 3,
+		"power": 4,
+		"description": "On Reveal: Shuffle Mjolnir into your deck.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Tiger Spirit",
+		"cost": 5,
+		"power": 7,
+		"description": "No Ability.",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Time Stone",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Gain +1 Energy next turn. Draw a card.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Titania",
+		"cost": 1,
+		"power": 5,
+		"description": "When ANY card is played at this location, this card switches sides.",
+		"source": "POOL_4"
+	},
+	{
+		"name": "Typhoid Mary",
+		"cost": 4,
+		"power": 10,
+		"description": "Ongoing: Your other cards have -1 Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Uatu the Watcher",
+		"cost": 1,
+		"power": 2,
+		"description": "Once this is in your hand, you can see the unrevealed locations.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Ultron",
+		"cost": 6,
+		"power": 8,
+		"description": "On Reveal: Create four 1-Power Drones at each other location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Valkyrie",
+		"cost": 5,
+		"power": 3,
+		"description": "On Reveal: Set ALL cards at this location to 3 Power.",
+		"source": "POOL_5"
+	},
+	{
+		"name": "Venom",
+		"cost": 3,
+		"power": 1,
+		"description": "On Reveal: Destroy your other cards at this location. Add their Power to this card.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Vibranium",
+		"cost": 1,
+		"power": 4,
+		"description": "Ongoing: Can't be destroyed",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Viper",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Your opponent gains control of one of your other cards at this location.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Vision",
+		"cost": 5,
+		"power": 7,
+		"description": "You can move this each turn.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Vulture",
+		"cost": 3,
+		"power": 3,
+		"description": "When this card moves, +5 Power.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Warpath",
+		"cost": 4,
+		"power": 5,
+		"description": "Ongoing: If any of your locations are empty, +4 Power.",
+		"source": "POOL_2"
+	},
+	{
+		"name": "Wasp",
+		"cost": 0,
+		"power": 1,
+		"description": "No ability.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Wave",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Next turn, cards in both players’ hands cost 4.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "White Queen",
+		"cost": 4,
+		"power": 6,
+		"description": "On Reveal: Draw a copy of the highest Cost card in your opponent’s hand.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Winter Soldier",
+		"cost": 2,
+		"power": 6,
+		"description": "No Ability.",
+		"source": "SUMMON"
+	},
+	{
+		"name": "Wolverine",
+		"cost": 2,
+		"power": 3,
+		"description": "When this card is discarded or destroyed, play it at a random location.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Wong",
+		"cost": 4,
+		"power": 2,
+		"description": "Ongoing: Your On Reveal abilities at this location happen twice.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Yelowjacket",
+		"cost": 0,
+		"power": 2,
+		"description": "On Reveal: Afflict your other cards at this location with -1 Power.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Yondu",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Remove the top card of your opponent’s deck.",
+		"source": "POOL_1"
+	},
+	{
+		"name": "Zero",
+		"cost": 1,
+		"power": 3,
+		"description": "On Reveal: Remove the abilities on the next card you play.",
+		"source": "POOL_3"
+	},
+	{
+		"name": "Blue Marvel",
+		"cost": 5,
+		"power": 3,
+		"description": "Ongoing: Your other cards have +1 Power.",
+		"source": "RECRUIT"
+	},
+	{
+		"name": "Colossus",
+		"cost": 2,
+		"power": 3,
+		"description": "Ongoing: Can't be destroyed, moved, or have its Power reduced.",
+		"source": "RECRUIT"
+	},
+	{
+		"name": "Gamora",
+		"cost": 5,
+		"power": 7,
+		"description": "On Reveal: If your opponent played a card here this turn, +5 Power.",
+		"source": "RECRUIT"
+	},
+	{
+		"name": "Ironheart",
+		"cost": 3,
+		"power": 0,
+		"description": "On Reveal: Give 3 other friendly cards +2 Power.",
+		"source": "RECRUIT"
+	},
+	{
+		"name": "Jessica Jones",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: If you don't play a card here next turn, +4 Power.",
+		"source": "POOL_0"
+	},
+	{
+		"name": "Ka-Zar",
+		"cost": 4,
+		"power": 4,
+		"description": "Ongoing: Your 1-Cost cards have +1 Power.",
+		"source": "POOL_0"
+	},
+	{
+		"name": "Mister Fantastic",
+		"cost": 3,
+		"power": 2,
+		"description": "Ongoing: Adjacent locations have +2 Power.",
+		"source": "POOL_0"
+	},
+	{
+		"name": "Nightcrawler",
+		"cost": 1,
+		"power": 2,
+		"description": "You can move this once.",
+		"source": "POOL_0"
+	},
+	{
+		"name": "Odin",
+		"cost": 6,
+		"power": 8,
+		"description": "On Reveal: Activate the On Reveal abilities of your other cards at this location.",
+		"source": "POOL_0"
+	},
+	{
+		"name": "Spectrum",
+		"cost": 6,
+		"power": 5,
+		"description": "On Reveal: Give your Ongoing cards +2 Power.",
+		"source": "POOL_0"
+	},
+	{
+		"name": "White Tiger",
+		"cost": 5,
+		"power": 1,
+		"description": "On Reveal: Add a 7-Power Tiger to another location.",
+		"source": "POOL_0"
+	},
+	{
+		"name": "Wolfsbane",
+		"cost": 3,
+		"power": 1,
+		"description": "On Reveal: +2 Power for each other card you have here.",
+		"source": "POOL_0"
+	},
+	{
+		"name": "Silver Surfer",
+		"cost": 3,
+		"power": 0,
+		"description": "On Reveal: Give your other 3-Cost cards +3 Power.",
+		"source": "SEASONPASS"
+	},
+	{
+		"name": "Zabu",
+		"cost": 3,
+		"power": 2,
+		"description": "Ongoing: Your 4-Cost cards cost 2 less. (minimum 1)",
+		"source": "SEASONPASS"
+	}
+]

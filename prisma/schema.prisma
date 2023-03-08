@@ -1,0 +1,110 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Card {
+  id          Int               @id @default(autoincrement())
+  name        String
+  cost        Int
+  power       Int
+  description String
+  source      Source?           @relation(fields: [sourceId], references: [id])
+  sourceId    String?
+  keywords    KeywordsOnCards[]
+  s3Key       String
+  s3Bucket    String
+  decks       Deck[]
+  // add field for release patch
+
+  @@unique([name])
+}
+
+model Source {
+  id    String @id
+  name  String
+  cards Card[]
+}
+
+model Location {
+  id          Int    @id @default(autoincrement())
+  name        String
+  description String
+  s3Key       String
+  s3Bucket    String
+  // effect LocationEffect
+}
+
+model LocationEffect {
+  locationId Int        @unique
+  effectType EffectType
+  action     String
+}
+
+model CardEffect {
+  cardId     Int        @unique
+  effectType EffectType
+  action     String
+}
+
+model User {
+  id       String @id @unique @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name     String
+  email    String @unique
+  password String
+  decks    Deck[]
+  role     Role?
+}
+
+model Keyword {
+  id      String            @id
+  keyword String            @unique
+  card    KeywordsOnCards[]
+}
+
+model KeywordsOnCards {
+  card      Card    @relation(fields: [cardId], references: [id])
+  cardId    Int
+  keyword   Keyword @relation(fields: [keywordId], references: [id])
+  keywordId String
+
+  @@id([cardId, keywordId])
+}
+
+model Deck {
+  id     Int    @id @default(autoincrement())
+  name   String
+  user   User   @relation(fields: [userId], references: [id])
+  userId String @db.Uuid
+  cards  Card[]
+}
+
+// model CardsOnDecks {
+//   card   Card @relation(fields: [cardId], references: [id])
+//   cardId Int
+//   deck   Deck @relation(fields: [deckId], references: [id])
+//   deckId Int
+
+//   @@id([cardId, deckId])
+// }
+
+enum Role {
+  ADMIN
+  MODERATOR
+}
+
+enum EffectType {
+  BUFF_CARD
+  NERF_CARD
+  BUFF_POWER
+  NERF_POWER
+  ADD_TO_LOCATION
+  SPECIAL
+}

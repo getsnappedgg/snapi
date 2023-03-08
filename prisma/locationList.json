@@ -1,0 +1,282 @@
+[
+	{
+		"name": "Altar of Death",
+		"description": "When you play a card here, destroy it to get +2 Energy next turn."
+	},
+	{
+		"name": "Asgard",
+		"description": "At the end of turn 4, whoever is winning here draws 2 cards."
+	},
+	{
+		"name": "Atlantis",
+		"description": "If you only have one card here, it has +5 Power."
+	},
+	{
+		"name": "Avengers Compound",
+		"description": "On turn 5, all cards must be played here."
+	},
+	{
+		"name": "Baxter Building",
+		"description": "Whoever is winning this location gets +3 Power at the others."
+	},
+	{
+		"name": "Bifrost",
+		"description": "After turn 4, move all cards one location to the right."
+	},
+	{ "name": "Central Park", "description": "Add a Squirrel to each location." },
+	{
+		"name": "Cloning Vats",
+		"description": "When you play a card here, add a copy to your hand."
+	},
+	{
+		"name": "Collapsed Mine",
+		"description": "Fill this Location with Rocks. Skip a turn to destroy your Rocks."
+	},
+	{
+		"name": "Crimson Cosmos",
+		"description": "1, 2, and 3-Cost cards can’t be played here."
+	},
+	{
+		"name": "Daily Bugle",
+		"description": "Get a copy of a card in your opponent’s hand."
+	},
+	{
+		"name": "Danger Room",
+		"description": "Cards played here have a 25% chance to be destroyed."
+	},
+	{
+		"name": "Dark Dimension",
+		"description": "Cards played here are not revealed until the game ends."
+	},
+	{
+		"name": "Death’s Domain",
+		"description": "When you play a card here, destroy it. (Previously this effect was seen on Knowhere)"
+	},
+	{
+		"name": "District X",
+		"description": "Replace both decks with 10 random cards."
+	},
+	{ "name": "Dream Dimension", "description": "On turn 5, cards cost 1 more." },
+	{ "name": "Elysium", "description": "Cards cost 1 less." },
+	{
+		"name": "Eternity Range",
+		"description": "After turn 3, add a Rock to the losing player’s side."
+	},
+	{
+		"name": "Fisk Tower",
+		"description": "When a card moves here, destroy it."
+	},
+	{
+		"name": "Gamma Lab",
+		"description": "After turn 3, transform all cards here into the Hulk."
+	},
+	{
+		"name": "Grand Central",
+		"description": "At the end of turn 5, put a card from each player’s hand here."
+	},
+	{
+		"name": "Hala",
+		"description": "At the end of turn 4, destroy all cards controlled by the player losing here."
+	},
+	{
+		"name": "Hellfire Club",
+		"description": "1-Cost cards can’t be played here."
+	},
+	{
+		"name": "Hell’s Kitchen",
+		"description": "Draw a 1-Cost card from your deck."
+	},
+	{
+		"name": "Isle of Silence",
+		"description": "Ongoing effects are disabled here."
+	},
+	{
+		"name": "Jotunheim",
+		"description": "After each turn, cards here lose 1 Power."
+	},
+	{
+		"name": "Klyntar",
+		"description": "After turn 4, merge your cards here into a Symbiote."
+	},
+	{
+		"name": "K’un-Lun",
+		"description": "When a card moves here, give it +2 Power."
+	},
+	{
+		"name": "Kamar-Taj",
+		"description": "On Reveal effects happen twice at this location."
+	},
+	{ "name": "Klyntar", "description": "Cards here have -2 Power." },
+	{
+		"name": "Knowhere",
+		"description": "On Reveal effects do not happen at this location."
+	},
+	{ "name": "Kyln", "description": "You can’t play cards here after turn 4." },
+	{ "name": "Lamentis-1", "description": "Draw 3 cards. Destroy both decks." },
+	{
+		"name": "Lechuguilla",
+		"description": "When you play a card here shuffle 3 rocks into your deck."
+	},
+	{ "name": "Lemuria", "description": "No cards are revealed this turn." },
+	{ "name": "Limbo", "description": "There is a turn 7 this game." },
+	{
+		"name": "Los Diablos Base",
+		"description": "At the end of turn 3, ruin a random location."
+	},
+	{ "name": "Mindscape", "description": "At the start of turn 6, swap hands." },
+	{
+		"name": "Miniaturized Lab",
+		"description": "On turn 3, 4, and 5, no cards can be added here."
+	},
+	{
+		"name": "Mirror Dimension",
+		"description": "On turn 4, transform into one of the other locations."
+	},
+	{
+		"name": "Mojoworld",
+		"description": "Whoever has more cards here gets +100 Power."
+	},
+	{
+		"name": "Monster Island",
+		"description": "Add a 9-Power Monster here for each player."
+	},
+	{
+		"name": "Monster Metropolis",
+		"description": "The cards with the highest Power here get +3 Power."
+	},
+	{
+		"name": "Morag",
+		"description": "You can’t play your first card here each turn."
+	},
+	{
+		"name": "Muir Island",
+		"description": "After each turn, give cards here +1 Power."
+	},
+	{
+		"name": "Murderworld",
+		"description": "At the end of turn 3, destroy all cards here."
+	},
+	{ "name": "Negative Zone", "description": "Cards here have -3 Power." },
+	{
+		"name": "New York",
+		"description": "On turn 6, you can move cards to this location."
+	},
+	{ "name": "Nidavellir", "description": "Cards here have +5 Power" },
+	{ "name": "Nova Roma", "description": "Draw a card." },
+	{ "name": "Olympia", "description": "Draw 2 cards" },
+	{
+		"name": "Onslaught’s Citadel",
+		"description": "Ongoing effects here are doubled."
+	},
+	{
+		"name": "Oscorp Tower",
+		"description": "After turn 3, all cards here swap sides."
+	},
+	{
+		"name": "Plunder Castle",
+		"description": "Only Cards that cost 6 can be played here."
+	},
+	{ "name": "Project Pegasus", "description": "#ERROR!" },
+	{
+		"name": "Rickety Bridge",
+		"description": "After each turn, if there is more than one card here, destroy them."
+	},
+	{ "name": "Ruins", "description": "[no effect]" },
+	{
+		"name": "Sakaar",
+		"description": "Put a card from each player’s hand here."
+	},
+	{ "name": "Sanctum Sanctorum", "description": "Cards can’t be played here." },
+	{
+		"name": "Savage Land",
+		"description": "Add two Raptors on each side of this location."
+	},
+	{
+		"name": "Shadowland",
+		"description": "Add a Ninja to each side with -2 Power."
+	},
+	{
+		"name": "Sinister London",
+		"description": "When you play a card here, add a copy to another location."
+	},
+	{
+		"name": "Sokovia",
+		"description": "Discard a card from each player’s hand."
+	},
+	{
+		"name": "Stark Tower",
+		"description": "At the end of turn 5, give all cards here +2 Power."
+	},
+	{
+		"name": "Starlight Citadel",
+		"description": "After turn 4, swap the position of each location."
+	},
+	{
+		"name": "Strange Academy",
+		"description": "At the end of turn 5 move all cards here to other random locations."
+	},
+	{ "name": "Subterranea", "description": "Shuffle 5 rocks into each deck." },
+	{
+		"name": "The Bar With No Name",
+		"description": "Whoever has the least Power here wins."
+	},
+	{
+		"name": "The Big House",
+		"description": "4, 5, and 6-Cost cards can’t be played here."
+	},
+	{
+		"name": "The Hub",
+		"description": "Add a random card to each player’s hand."
+	},
+	{
+		"name": "The Ice Box",
+		"description": "Give a card in each player’s hand +1 Cost."
+	},
+	{
+		"name": "The Nexus",
+		"description": "Your Power here is granted to other Locations as well."
+	},
+	{
+		"name": "The Space Throne",
+		"description": "Only one card can be here for each player."
+	},
+	{
+		"name": "The Superflow",
+		"description": "If you have no cards here, +1 energy each turn."
+	},
+	{
+		"name": "The Triskelion",
+		"description": "Fill each player’s hand with random cards."
+	},
+	{
+		"name": "The Vault",
+		"description": "On turn 6, cards can’t be played here."
+	},
+	{ "name": "Tinkerer’s Workshop", "description": "#ERROR!" },
+	{ "name": "Titan", "description": "6-Cost cards cost 1 less." },
+	{ "name": "Transia", "description": "Shuffle the locations." },
+	{
+		"name": "Vormir",
+		"description": "The first card you play here is destroyed."
+	},
+	{ "name": "Wakanda", "description": "Cards here can’t be destroyed." },
+	{
+		"name": "Wakandan Embassy",
+		"description": "Give +2 Power to cards in players’ hands."
+	},
+	{
+		"name": "Washington D.C.",
+		"description": "Cards here with no abilities have +3 Power."
+	},
+	{
+		"name": "Weirdworld",
+		"description": "Both players draw from their opponent’s decks."
+	},
+	{ "name": "Westview", "description": "Turns into a new location on turn 4." },
+	{ "name": "Worldship", "description": "Destroy the other locations." },
+	{
+		"name": "X-Mansion",
+		"description": "At the end of turn 3, add a random card here for each player."
+	},
+	{ "name": "Xandar", "description": "Cards here have +1 Power." }
+]
