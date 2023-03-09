@@ -1,8 +1,8 @@
-import asyncHandler from "express-async-handler";
-import jwt from "jsonwebtoken";
-import { prisma } from "../index.js";
+const asyncHandler = require("express-async-handler");
+const jwt = require("jsonwebtoken");
+const prisma = require("../index");
 
-export const protect = asyncHandler(async (req, res, next) => {
+const protect = asyncHandler(async (req, res, next) => {
 	let token;
 
 	if (
@@ -28,7 +28,7 @@ export const protect = asyncHandler(async (req, res, next) => {
 	}
 });
 
-export const isAdmin = asyncHandler(async (req, res, next) => {
+const isAdmin = asyncHandler(async (req, res, next) => {
 	try {
 		if (req.user.role != "ADMIN") {
 			res.status(401);
@@ -41,6 +41,4 @@ export const isAdmin = asyncHandler(async (req, res, next) => {
 	}
 });
 
-// export const isAdmin = (req, res, next) => {
-
-// };
+module.exports = { protect, isAdmin };

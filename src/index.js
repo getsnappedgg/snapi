@@ -1,9 +1,12 @@
-import { PrismaClient } from "@prisma/client";
-import cors from "cors";
-import express from "express";
-import morgan from "morgan";
-import { router } from "./routes/index.js";
-export const prisma = new PrismaClient();
+const { PrismaClient } = require("@prisma/client");
+const cors = require("cors");
+const express = require("express");
+const morgan = require("morgan");
+const serverless = require("serverless-http");
+
+const router = require("./routes/index");
+
+const prisma = new PrismaClient();
 const PORT = process.env.PORT;
 
 const app = express();
@@ -20,6 +23,7 @@ app.use(function (req, res, next) {
 	next();
 });
 
+// app.use(`/.netlify/functions/api`, router);
 app.use("/api", router);
 
 app.listen(PORT, () =>
@@ -30,3 +34,6 @@ app.use(function (err, req, res, next) {
 	if (process.env.NODE_ENV !== "test") console.error(err.stack);
 	res.status(err.status || 500).send(err.message || "Internal server error");
 });
+
+module.exports = { app, prisma };
+module.exports.handler = serverless(app);

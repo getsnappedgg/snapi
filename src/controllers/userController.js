@@ -1,12 +1,13 @@
-import bcrypt from "bcryptjs";
-import asyncHandler from "express-async-handler";
-import jwt from "jsonwebtoken";
-import { prisma } from "../index.js";
+const bcrypt = require("bcryptjs");
+const asyncHandler = require("express-async-handler");
+const jwt = require("jsonwebtoken");
+const { PrismaClient } = require("@prisma/client");
+const prisma = new PrismaClient();
 
 // @desc    Register new user
 // @route   POST /api/users
 // @access  Public
-export const registerUser = asyncHandler(async (req, res) => {
+const registerUser = asyncHandler(async (req, res) => {
 	const { name, email, password } = req.body;
 	if (!name || !email || !password) {
 		res.status(400);
@@ -49,7 +50,7 @@ export const registerUser = asyncHandler(async (req, res) => {
 		throw new Error("Invalid user data");
 	}
 });
-export const loginUser = asyncHandler(async (req, res) => {
+const loginUser = asyncHandler(async (req, res) => {
 	const { email, password } = req.body;
 
 	// Check for user email
@@ -68,7 +69,7 @@ export const loginUser = asyncHandler(async (req, res) => {
 	}
 });
 
-export const deleteUser = asyncHandler(async (req, res) => {
+const deleteUser = asyncHandler(async (req, res) => {
 	const { id } = req.params;
 	const deletedUser = await prisma.user.delete({
 		where: {
@@ -78,7 +79,7 @@ export const deleteUser = asyncHandler(async (req, res) => {
 	res.send(200).json(deletedUser);
 });
 
-export const getMe = asyncHandler(async (req, res) => {
+const getMe = asyncHandler(async (req, res) => {
 	// res.send(await prisma.user.findUnique.findByToken(req.headers.authorization));
 	const data = {
 		name: req.user.name,
@@ -93,9 +94,9 @@ const generateToken = id => {
 	});
 };
 
-// module.exports = {
-// 	registerUser,
-// 	loginUser,
-// 	getMe,
-// 	deleteUser,
-// };
+module.exports = {
+	registerUser,
+	loginUser,
+	getMe,
+	deleteUser,
+};

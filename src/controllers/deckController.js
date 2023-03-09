@@ -1,7 +1,8 @@
-import asyncHandler from "express-async-handler";
-import { prisma } from "../index.js";
+const asyncHandler = require("express-async-handler");
+const { PrismaClient } = require("@prisma/client");
+const prisma = new PrismaClient();
 
-export const getDecks = asyncHandler(async (req, res) => {
+const getDecks = asyncHandler(async (req, res) => {
 	const decks = await prisma.deck.findMany({
 		include: {
 			cards: true,
@@ -9,38 +10,36 @@ export const getDecks = asyncHandler(async (req, res) => {
 	}); // needs a limit
 	res.json(decks);
 });
-export const getSingleDeck = asyncHandler(
-	async (req, res, next) => {
-		try {
-			let { deckId } = req.params;
-			deckId = parseInt(deckId);
-			const deck = await prisma.deck.findUnique({
-				where: {
-					id: deckId,
-				},
-				include: {
-					cards: true,
-				},
-			});
-			if (!deck) {
-				throw new Error("can't find deck");
-			} else {
-				res.status(200).json(deck);
-			}
-		} catch (error) {
-			console.error(error);
-			next();
+const getSingleDeck = asyncHandler(async (req, res, next) => {
+	try {
+		let { deckId } = req.params;
+		deckId = parseInt(deckId);
+		const deck = await prisma.deck.findUnique({
+			where: {
+				id: deckId,
+			},
+			include: {
+				cards: true,
+			},
+		});
+		if (!deck) {
+			throw new Error("can't find deck");
+		} else {
+			res.status(200).json(deck);
 		}
+	} catch (error) {
+		console.error(error);
+		next();
 	}
-);
-export const createDeck = asyncHandler(async (req, res) => {
+});
+const createDeck = asyncHandler(async (req, res) => {
 	let { name, cardIds, userId } = req.body;
 	try {
 		if (cardIds.length != 12) {
 			throw Error("Deck is not full");
 		}
 
-		cardIds = cardIds.map((id) => ({ id }));
+		cardIds = cardIds.map(id => ({ id }));
 		const deck = await prisma.deck.create({
 			data: {
 				userId,
@@ -56,7 +55,7 @@ export const createDeck = asyncHandler(async (req, res) => {
 	}
 });
 
-export const deleteDeck = asyncHandler(async (req, res) => {
+const deleteDeck = asyncHandler(async (req, res) => {
 	try {
 		const { id } = req.body;
 		const deletedDeck = await prisma.deck.delete({
@@ -75,12 +74,12 @@ export const deleteDeck = asyncHandler(async (req, res) => {
 		console.error(error);
 	}
 });
-export const editDeck = asyncHandler(async (req, res) => {
+const editDeck = asyncHandler(async (req, res) => {
 	const { id, cards } = req.body;
 	if (cards.length != 12) throw new Error("deck length invalid");
 	// const updatedDeck = prisma.cardsOnDecks.
 });
-export const getDecksByCardId = asyncHandler(async (req, res) => {
+const getDecksByCardId = asyncHandler(async (req, res) => {
 	try {
 		const cardId = parseInt(req.params.cardId);
 		let decksByCardId = await prisma.deck.findMany({
@@ -131,3 +130,11 @@ export const getDecksByCardId = asyncHandler(async (req, res) => {
 		console.log(error);
 	}
 });
+module.exports = {
+	getDecks,
+	createDeck,
+	deleteDeck,
+	editDeck,
+	getDecksByCardId,
+	getSingleDeck,
+};

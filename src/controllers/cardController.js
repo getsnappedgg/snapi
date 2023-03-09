@@ -1,11 +1,14 @@
-import asyncHandler from "express-async-handler";
-import { prisma } from "../index.js";
-import { s3 } from "../lib/s3.js";
+const asyncHandler = require("express-async-handler");
+
+const { PrismaClient } = require("@prisma/client");
+const prisma = new PrismaClient();
+
+const s3 = require("../lib/s3");
 
 // @desc    Get cards
 // @route   GET /api/cards
 // @access  Private
-export const getCards = asyncHandler(async (req, res) => {
+const getCards = asyncHandler(async (req, res) => {
 	try {
 		const cards = await prisma.card.findMany({});
 		const cardsWithImages = cards.map(card => {
@@ -38,7 +41,7 @@ export const getCards = asyncHandler(async (req, res) => {
 	}
 });
 
-export const getUniqueCard = asyncHandler(async (req, res) => {
+const getUniqueCard = asyncHandler(async (req, res) => {
 	try {
 		const { name } = req.params;
 		let card = await prisma.card.findUnique({
@@ -84,7 +87,7 @@ export const getUniqueCard = asyncHandler(async (req, res) => {
 // @desc    Create cards
 // @route   POST /api/cards/new
 // @access  Private
-export const createCard = asyncHandler(async (req, res) => {
+const createCard = asyncHandler(async (req, res) => {
 	const { name, cost, power, description, source, s3Key, s3Bucket } = req.body;
 	const card = await prisma.card.create({
 		data: {
@@ -104,7 +107,7 @@ export const createCard = asyncHandler(async (req, res) => {
 // @desc    Update card
 // @route   PUT /api/cards/update
 // @access  Private
-export const updateCard = asyncHandler(async (req, res) => {
+const updateCard = asyncHandler(async (req, res) => {
 	const { id, name, cost, power, description, source } = req.body;
 	const updatedCard = await prisma.card.update({
 		where: {
@@ -124,7 +127,7 @@ export const updateCard = asyncHandler(async (req, res) => {
 // @desc    Delete card
 // @route   DELETE /api/cards/delete
 // @access  Private
-export const deleteCard = asyncHandler(async (req, res) => {
+const deleteCard = asyncHandler(async (req, res) => {
 	const { id } = req.body;
 	const deletedCard = await prisma.card.delete({
 		where: {
@@ -133,3 +136,12 @@ export const deleteCard = asyncHandler(async (req, res) => {
 	});
 	res.json(deletedCard);
 });
+
+module.exports = {
+	getCards,
+	getUniqueCard,
+	deleteCard,
+	updateCard,
+	deleteCard,
+	createCard,
+};
